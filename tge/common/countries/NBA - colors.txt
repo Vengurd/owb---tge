@@ -1,0 +1,4 @@
+NBA = {
+  color = rgb { 113 72 102}
+  color_ui = rgb { 117 72 112}
+}

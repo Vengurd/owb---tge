@@ -1,0 +1,107 @@
+﻿capital = 1083
+oob = "NBA_2275"
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.1
+
+set_technology = {
+	# baseline techs
+	tribal_civilization = 1
+	settled_civilization = 1
+
+	#industry
+	oral_instruction = 1
+
+	#infantry
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+
+	#support
+	explosive_tech = 1
+	anti_personnel_tech = 1
+	support_weaponry = 1
+
+	#vehicle
+	bike_tech_1 = 1
+
+	#naval
+	destroyer_tech = 1
+	destroyer_tech_2 = 1
+	cruiser_tech = 1
+	naval_invasion_tech = 1
+}
+
+
+set_politics = {
+    parties = {
+        people = { popularity = 10 }
+        elites = { popularity = 20 }
+        intellectuals = { popularity = 30 }
+        ruler = { popularity = 40 }
+    }
+    ruling_party = ruler
+    elections_allowed = no
+}
+
+add_ideas = { hidden_strikes }
+
+create_country_leader  = {
+    name = "Kayla Deurte"
+    desc = "NBA_Leader_DESC"
+    picture = "gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+    expire = "3000.1.1"
+    ideology = tribal_council
+    
+    traits = {
+        cornered_fox
+        stout_defender
+    }
+}
+create_country_leader  = {
+    name = "Kayla Deurte"
+    desc = "NBA_Leader_DESC"
+    picture = "gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+    expire = "3000.1.1"
+    ideology = ideocracy
+    
+    traits = {
+        cornered_fox
+        stout_defender
+    }
+}
+create_country_leader  = {
+    name = "Kayla Deurte"
+    desc = "NBA_Leader_DESC"
+    picture = "gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+    expire = "3000.1.1"
+    ideology = tribalism
+    
+    traits = {
+        cornered_fox
+        stout_defender
+    }
+}
+create_country_leader  = {
+    name = "Kayla Deurte"
+    desc = "NBA_Leader_DESC"
+    picture = "gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+    expire = "3000.1.1"
+    ideology = warlordship
+    
+    traits = {
+        cornered_fox
+        stout_defender
+    }
+}
+
+create_corps_commander = {
+	name = "Kayla Deurte"
+	portrait_path = "gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+	traits = { trait_cautious }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 3
+	female = yes
+}
