@@ -1,5 +1,5 @@
 ﻿capital = 1083
-oob = "NBA_2275"
+#oob = "NBA_2275"
 set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.1
